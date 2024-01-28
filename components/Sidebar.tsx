@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 
 const Sidebar = () => {
   const pathname = usePathname();
-  console.log(pathname, "pathName");
   return (
     <aside className="py-12 px-8">
       <div className="flex items-center justify-center mb-5 gap-4">
